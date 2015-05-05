@@ -1,0 +1,6 @@
+package test;
+
+message Note {
+    repeated string idea = 1;
+    optional int64 number = 2;
+}
